@@ -3,7 +3,7 @@ import HomeForm from '../components/HomeForm';
 
 const HomePage: React.FC = () => {
     useEffect(() => {
-        fetch('http://localhost:5000/health')
+        fetch('https://163209aa37f2.ngrok-free.app/health')
             .then(res => res.json())
             .then(data => {
                 console.log('Health API response:', data);

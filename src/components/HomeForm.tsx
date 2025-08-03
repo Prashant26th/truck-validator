@@ -101,7 +101,7 @@ const HomeForm: React.FC = () => {
     console.log('Submitting form with data:', { date, truckNumber, transporter, checklist, photos });
 
     try {
-      const response = await fetch('http://localhost:5000/validation', {
+      const response = await fetch('https://163209aa37f2.ngrok-free.app/validation', {
         method: 'POST',
         body: formData,
       });
