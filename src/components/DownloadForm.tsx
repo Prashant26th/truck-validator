@@ -10,7 +10,7 @@ const DownloadForm: React.FC = () => {
         event.preventDefault();
         setDownloading(true);
         try {
-            const response = await fetch('https://163209aa37f2.ngrok-free.app/download', {
+            const response = await fetch('https://581a09000db5.ngrok-free.app/download', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
